@@ -1,0 +1,2 @@
+throw_fire 30 10 1
+throw_ice 25 10 1

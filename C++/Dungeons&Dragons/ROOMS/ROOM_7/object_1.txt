@@ -1,0 +1,1 @@
+door open 5 intellect ROOM_1

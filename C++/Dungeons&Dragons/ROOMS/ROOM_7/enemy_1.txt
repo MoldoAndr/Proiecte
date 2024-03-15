@@ -1,0 +1,5 @@
+enemy_1
+30
+ELF
+FIGHTER
+HOT

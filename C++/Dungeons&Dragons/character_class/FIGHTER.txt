@@ -1,0 +1,4 @@
+shoot 20 10 1
+jump_over_walls 10 10 2
+stub 15 10 1
+throw_punch 5 10 0

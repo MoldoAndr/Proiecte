@@ -1,0 +1,1 @@
+door drink 10 power ROOM_3

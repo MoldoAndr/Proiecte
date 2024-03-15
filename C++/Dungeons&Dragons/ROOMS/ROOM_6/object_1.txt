@@ -1,0 +1,1 @@
+food eat 10 dexterity

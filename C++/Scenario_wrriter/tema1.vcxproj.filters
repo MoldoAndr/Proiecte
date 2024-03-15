@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Scenariu">
+      <UniqueIdentifier>{4035d247-6a68-4af9-9e90-e00be33b078e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenariu\Scena">
+      <UniqueIdentifier>{55945e41-6a46-408f-bbb3-a5f149c30e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenariu\Actor">
+      <UniqueIdentifier>{785af907-cce7-4fff-9435-fd639cca916f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MTAStudios">
+      <UniqueIdentifier>{f6d88e2c-a100-41f0-8521-90ca02be1d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MTAStudios\Angajat">
+      <UniqueIdentifier>{cca9f8d5-4b35-4c00-a6d9-015574896d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MTAStudios\Angajat\Director">
+      <UniqueIdentifier>{9f1772e1-78e2-407e-acda-858092414ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text Files">
+      <UniqueIdentifier>{a373e452-0315-4884-8dec-70de2ed4b341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileManager">
+      <UniqueIdentifier>{b89b478a-9b78-4f58-92be-4cc2b1ec145b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MTAStudios\Angajat\Producator">
+      <UniqueIdentifier>{1c23d355-a830-4616-9a2d-5da928f0885b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenariu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scena.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenaStatica.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenaDinamica.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Personaj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Replica.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MTAStudios.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Angajat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenarist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Regizor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Producator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Film.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Header Files\FileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EfectSpecial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scenariu.h">
+      <Filter>Header Files\Scenariu</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenaDinamica.h">
+      <Filter>Header Files\Scenariu\Scena</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenaStatica.h">
+      <Filter>Header Files\Scenariu\Scena</Filter>
+    </ClInclude>
+    <ClInclude Include="IScena.h">
+      <Filter>Header Files\Scenariu\Scena</Filter>
+    </ClInclude>
+    <ClInclude Include="Scena.h">
+      <Filter>Header Files\Scenariu\Scena</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Header Files\Scenariu\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Personaj.h">
+      <Filter>Header Files\Scenariu</Filter>
+    </ClInclude>
+    <ClInclude Include="Replica.h">
+      <Filter>Header Files\Scenariu</Filter>
+    </ClInclude>
+    <ClInclude Include="MTAStudios.h">
+      <Filter>Header Files\MTAStudios</Filter>
+    </ClInclude>
+    <ClInclude Include="Angajat.h">
+      <Filter>Header Files\MTAStudios\Angajat</Filter>
+    </ClInclude>
+    <ClInclude Include="IAngajat.h">
+      <Filter>Header Files\MTAStudios\Angajat</Filter>
+    </ClInclude>
+    <ClInclude Include="Regizor.h">
+      <Filter>Header Files\MTAStudios\Angajat</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenarist.h">
+      <Filter>Header Files\MTAStudios\Angajat</Filter>
+    </ClInclude>
+    <ClInclude Include="Film.h">
+      <Filter>Header Files\MTAStudios\Angajat\Director</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>Header Files\MTAStudios\Angajat\Director</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Header Files\FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Producator.h">
+      <Filter>Header Files\MTAStudios\Angajat\Producator</Filter>
+    </ClInclude>
+    <ClInclude Include="EfectSpecial.h">
+      <Filter>Header Files\MTAStudios\Angajat\Producator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text Files\verbe.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="Text Files\actori.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="Text Files\efecteSonore.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="Text Files\efecteVizuale.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="Text Files\elementeNaturale.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="Text Files\momenteZi.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="Text Files\nume.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="Text Files\Poveste.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="Text Files\stareaVremii.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

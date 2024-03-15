@@ -1,0 +1,1 @@
+portal open 6 intellect ROOM_3

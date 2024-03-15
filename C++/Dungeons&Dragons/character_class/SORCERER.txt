@@ -1,0 +1,2 @@
+telekinesis 50 10 2
+ilusion 30 10 2

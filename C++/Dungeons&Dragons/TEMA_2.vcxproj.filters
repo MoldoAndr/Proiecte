@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\EXCEPTIE">
+      <UniqueIdentifier>{990a8737-8832-4f6a-ba85-7fa69d2ca5f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CARACTER">
+      <UniqueIdentifier>{3e55777c-42fb-40a5-8c35-623ef6041c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CARACTER\PLAYER">
+      <UniqueIdentifier>{d1592d52-f7e9-41c4-a6d1-df645607ca3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UTILS">
+      <UniqueIdentifier>{e099750b-34e0-49f6-af41-016d4d741e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CARACTER">
+      <UniqueIdentifier>{4f5b46f1-ee3a-47d0-bcbd-ec3c2dc97572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CARACTER\PLAYER">
+      <UniqueIdentifier>{f1ed2bcf-4e87-4ac6-a0c8-da303ccb8732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UTILS">
+      <UniqueIdentifier>{4f885198-4c4d-4176-a965-493e43afc2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CARACTER\MASTER">
+      <UniqueIdentifier>{e3f4c3d8-32d5-40f4-a229-913ed2bf3833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CARACTER\MASTER">
+      <UniqueIdentifier>{f2b45019-7fe0-4d09-8360-83a846181a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ROOM">
+      <UniqueIdentifier>{213472e2-4236-4a5e-ada1-cd81ec04da14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ROOM\OBJECTS">
+      <UniqueIdentifier>{1282def2-848b-43f9-8b13-00c936819608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ROOM">
+      <UniqueIdentifier>{60c4bbea-b22f-45f0-ba63-77f22706386a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ROOM\OBJECTS">
+      <UniqueIdentifier>{f07131e9-5549-40b5-9e52-79897d77e877}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Exceptie.h">
+      <Filter>Header Files\EXCEPTIE</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptie_Fisier.h">
+      <Filter>Header Files\EXCEPTIE</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptie_Logica.h">
+      <Filter>Header Files\EXCEPTIE</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptie_Runtime.h">
+      <Filter>Header Files\EXCEPTIE</Filter>
+    </ClInclude>
+    <ClInclude Include="IExceptie.h">
+      <Filter>Header Files\EXCEPTIE</Filter>
+    </ClInclude>
+    <ClInclude Include="character_info.h">
+      <Filter>Header Files\CARACTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\CARACTER</Filter>
+    </ClInclude>
+    <ClInclude Include="ICharacter.h">
+      <Filter>Header Files\CARACTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\CARACTER\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Builder.h">
+      <Filter>Header Files\CARACTER\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\UTILS</Filter>
+    </ClInclude>
+    <ClInclude Include="Rand_Gen.h">
+      <Filter>Header Files\UTILS</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\UTILS</Filter>
+    </ClInclude>
+    <ClInclude Include="File_Manager.h">
+      <Filter>Header Files\UTILS</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon_Master.h">
+      <Filter>Header Files\CARACTER\MASTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Header Files\ROOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\ROOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilitate.h">
+      <Filter>Header Files\CARACTER</Filter>
+    </ClInclude>
+    <ClInclude Include="IInterractive_Objects.h">
+      <Filter>Header Files\ROOM\OBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Interractive_Objects.h">
+      <Filter>Header Files\ROOM\OBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Portals.h">
+      <Filter>Header Files\ROOM\OBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="D20.h">
+      <Filter>Header Files\UTILS</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_builder.h">
+      <Filter>Header Files\ROOM\OBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Character_races.h">
+      <Filter>Header Files\CARACTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Character_classes.h">
+      <Filter>Header Files\CARACTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenariu.h">
+      <Filter>Header Files\UTILS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\CARACTER</Filter>
+    </ClCompile>
+    <ClCompile Include="ICharacter.cpp">
+      <Filter>Source Files\CARACTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Builder.cpp">
+      <Filter>Source Files\CARACTER\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\CARACTER\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="File_Manager.cpp">
+      <Filter>Source Files\UTILS</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\UTILS</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon_Master.cpp">
+      <Filter>Source Files\CARACTER\MASTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Interractive_Objects.cpp">
+      <Filter>Source Files\ROOM\OBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Portals.cpp">
+      <Filter>Source Files\ROOM\OBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files\ROOM</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\ROOM</Filter>
+    </ClCompile>
+    <ClCompile Include="Abilitate.cpp">
+      <Filter>Source Files\CARACTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Rand_Gen.cpp">
+      <Filter>Source Files\UTILS</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_builder.cpp">
+      <Filter>Source Files\ROOM\OBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic.cpp">
+      <Filter>Source Files\UTILS</Filter>
+    </ClCompile>
+    <ClCompile Include="Character_races.cpp">
+      <Filter>Source Files\CARACTER</Filter>
+    </ClCompile>
+    <ClCompile Include="Character_classes.cpp">
+      <Filter>Source Files\CARACTER</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenariu.cpp">
+      <Filter>Source Files\UTILS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="rolled_data.txt" />
+  </ItemGroup>
+</Project>

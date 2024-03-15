@@ -1,0 +1,5 @@
+jump 5 5 0
+walk 5 5 0
+talk 5 5 1
+run 5 5 2
+speak 5 5 2

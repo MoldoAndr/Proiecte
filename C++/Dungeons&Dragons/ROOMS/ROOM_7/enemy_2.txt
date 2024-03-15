@@ -1,0 +1,5 @@
+enemy_2
+34
+HUMAN
+FIGHTER
+HOT

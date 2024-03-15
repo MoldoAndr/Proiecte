@@ -1,0 +1,5 @@
+enemy_2
+40
+GOBLIN
+WIZARD
+HOT
